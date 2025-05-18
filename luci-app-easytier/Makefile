@@ -10,7 +10,7 @@ PKG_VERSION:=2.3.0
 PKG_RELEASE:=1
 
 LUCI_TITLE:=LuCI support for EasyTier
-LUCI_DEPENDS:=+kmod-tun +luci-compat
+LUCI_DEPENDS:=+kmod-tun +easytier +luci-compat
 LUCI_PKGARCH:=all
 
 PKG_NAME:=luci-app-easytier
